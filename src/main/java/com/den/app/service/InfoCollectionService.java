@@ -2,9 +2,8 @@ package com.den.app.service;
 
 import java.util.List;
 
-public interface InfoCollectionService<T> {
+public interface InfoCollectionService {
 
-    List<T> getInfo();
-    void showChanges();
+    void getInfo();
 
 }
