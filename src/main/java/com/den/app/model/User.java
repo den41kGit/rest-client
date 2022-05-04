@@ -2,12 +2,10 @@ package com.den.app.model;
 
 import lombok.*;
 
-import java.io.Serializable;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User implements Serializable {
+public class User {
     private Integer id;
     private String userName;
     private int password;
